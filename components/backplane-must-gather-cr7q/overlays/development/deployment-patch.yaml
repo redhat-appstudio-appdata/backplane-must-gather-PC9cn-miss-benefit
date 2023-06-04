@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: backplane-must-gather-cr7q
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/gbenhaim-tenant/backplane-must-gather/backplane-must-gather-cr7q@sha256:dbca4eb18f0786b3be506830c9a2e79d850053e792b0cd9f072a530e3f756bb9
+        name: container-image
+        resources: {}
+status: {}
