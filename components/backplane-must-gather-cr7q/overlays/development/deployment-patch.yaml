@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/gbenhaim-tenant/backplane-must-gather/backplane-must-gather-cr7q@sha256:dbca4eb18f0786b3be506830c9a2e79d850053e792b0cd9f072a530e3f756bb9
+      - image: quay.io/redhat-user-workloads/gbenhaim-tenant/backplane-must-gather/backplane-must-gather-cr7q@sha256:501972a9e597aea0dcb244cecbbdbec6557f2df92c7dcdf7a78defaab32b8831
         name: container-image
         resources: {}
 status: {}
